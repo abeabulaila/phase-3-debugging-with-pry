@@ -6,4 +6,9 @@ describe "#plus_two" do
 		expect(plus_two(3)).to eq(5)
 	end
 
-end
+	end 
+
+	def plus_two(num)
+		return num + 2
+		num
+	end
